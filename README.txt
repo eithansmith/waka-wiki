@@ -15,13 +15,10 @@ Instructions
   Just edit the config file and away you go.  For more extensive information 
   about waka-wiki, visit
   
-  http://code.google.com/p/waka-wiki/
+  https://github.com/eithansmith/waka-wiki
 
 
 Legals
-
-  waka-wiki is Copyright 2012 Eithan Smith
-  eithansmith@gmail.com
 
   This program is free software; you can redistribute it and/or modify
   it under the terms of the GNU General Public License as published by
