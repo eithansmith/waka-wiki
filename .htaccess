@@ -1,0 +1,15 @@
+# This file is .htaccess
+# All requests will be sent to index.php while requests for a file 
+# or directory that does exist will bypass the mod_rewrite rules and be 
+# served directly by the web server.
+
+Options +FollowSymLinks
+IndexIgnore */*
+
+# Turn on the RewriteEngine
+RewriteEngine On
+
+#  Rules
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . index.php

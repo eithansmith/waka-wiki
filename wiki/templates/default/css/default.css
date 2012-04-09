@@ -1,0 +1,295 @@
+* 
+{  
+	margin: 0 0;
+	padding: 0;
+}
+
+html 
+{ 
+	height: 100%; 
+}
+
+body 
+{
+	height: 100%;	
+	font-family: Arial, Helvetica, Verdana, sans-serif;
+    font-size: 0.75em; /* 12px or 75% */
+}
+
+img 
+{
+	border: none;
+}
+
+ul
+{
+    list-style: disc;
+}
+
+ul, ol
+{
+	line-height:125%;
+	margin: 0 0 0 25px;
+}
+
+li
+{
+    margin: 0 0 0 25px;
+    padding: 5px;
+}
+
+p 
+{
+	padding: 8px;
+	font-size: 100%;
+}
+
+.menulist
+{
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+.menulist li
+{
+	padding-left: 11px; 
+	padding-top: 3px;
+}
+
+a:link 
+{
+	color:blue;
+	text-decoration: none;
+	cursor: hand; /* ie */
+	cursor: pointer; /* other browsers */
+}
+
+a:visited 
+{
+	color: blue;
+	text-decoration: none;
+	cursor:hand; /* ie */
+	cursor:pointer; /* other browsers */
+}
+
+a:hover 
+{
+	color: red;
+	text-decoration: underline;
+}
+
+.no-link:link, .no-link:visited, .no-link:hover
+{
+	color: #000;
+	text-decoration:none;
+	cursor: hand; /* ie */
+	cursor: pointer; /* other browsers */
+}
+
+.menu
+{
+	float:left;
+	width:20%;	
+}
+
+.content
+{
+	float:left;
+	width:80%;	
+}
+
+.element
+{
+	margin:5px;
+	padding:5px;
+	line-height: 120%;
+}
+
+.float, .float-left
+{
+	float:left;
+}
+
+.float-right
+{
+	float:right;
+}
+
+.clear, .clear-both
+{
+	clear:both;	
+}
+
+.title 
+{
+	margin: 3px;
+	font-size: 200%;
+	font-style: italic;
+	border-bottom: 1px solid #C0C0C0;
+	text-align: left;
+	color: black;
+	padding: 0.2em 0.4em;
+}
+
+.last-modified
+{
+	font-size:80%;
+}
+
+h1, h2, h3, h4
+{
+	font-family: Arial, Helvetica, sans-serif;
+	word-spacing:3px;
+}
+
+h1
+{
+    font-size: 185%;
+	word-spacing: 3px;
+    padding: 5px 10px;
+}
+
+h2
+{
+    font-size: 160%;
+	word-spacing: 3px;
+    padding: 5px 10px;
+}
+
+h3
+{
+    font-size: 140%;
+}
+
+h4
+{
+    font-size:130%;
+}
+
+#header-logo
+{
+	float:left;
+}
+
+#wiki-title 
+{
+	padding: 7px 0; /*based on the height of your logo, this might need to change */
+	float:left;
+}
+
+#page-title
+{
+	float:left;
+	padding:12px 0;
+}
+
+form input[type=submit]
+{
+	padding:2px 5px;
+	background: #E8E8E8;
+	border: 1px solid #D6D6D6;		
+}
+
+form input[type=submit]:hover
+{
+	border: 1px solid #999999;
+    background: #CCCCCC;
+}
+
+
+#footer 
+{
+	position: relative;
+	padding: 15px 0px 15px 0px;
+	/*margin-top: 25px;*/
+	text-align: center;
+	font-size: 75%;
+	color: #000000;
+}
+
+.container 
+{
+	margin:5px 10px;
+	/*min-height: 80%;*/
+}
+
+.info, .success, .warning, .error 
+{
+    border: 1px solid;
+    margin: 15px 0;
+    padding:15px 20px 15px 55px;
+    width: 500px;	
+    font: bold 12px verdana;
+    -moz-box-shadow: 0 0 5px #888;
+    -webkit-box-shadow: 0 0 5px#888;
+    box-shadow: 0 0 5px #888;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.info 
+{
+    color: #00529B;
+    background: #BDE5F8 url('images/icon-info.png') no-repeat 10px center;
+}
+
+.success 
+{
+    color: #4F8A10;
+    background: #DFF2BF url('images/icon-tick.png') no-repeat 10px center;
+}
+
+.warning 
+{
+    color: #9F6000;
+    background: #FEEFB3 url('images/icon-warning.png') no-repeat 10px center;
+}
+
+.error 
+{
+    color: #D8000C;
+    background: #FFBABA url('images/icon-cross.png') no-repeat 10px center;
+}
+
+/* tables */
+table.tablesorter {
+	font-family:arial;
+	background-color: #CDCDCD;
+	margin:15px 0;
+	font-size: 100%;
+	/*width: 100%;*/
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #e6EEEE;
+	border: 1px solid #FFF;
+	font-size: 110%;
+	padding: 6px 16px;
+}
+table.tablesorter thead tr .header {
+	background-image: url('images/tablesorter/bg.gif');
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 4px 14px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url('images/tablesorter/asc.gif');
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url('images/tablesorter/desc.gif');
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #8dbdd8;
+}
+
