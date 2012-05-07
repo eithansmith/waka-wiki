@@ -19,7 +19,7 @@
 	            var answer = confirm('Are you should you want to delete this page?');
 	            return answer;
 	        });
-	        $('.tablesorter').tablesorter();
+	        $('.tablesorter').tablesorter({sortList: [[1,0], [0,0]]});
 	        $('.jec').jec();
 		});
 	</script>

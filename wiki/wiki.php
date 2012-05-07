@@ -352,6 +352,12 @@ Class Wiki
 			}
 		}
 		
+		asort($categories);
+		
+		//print '<pre>';
+		//print_r($categories);
+		//die();
+		
 		return $categories;
 	}
 	
