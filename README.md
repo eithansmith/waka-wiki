@@ -3,12 +3,10 @@ PHP Wiki.
 
 waka-wiki contains the following files and directories:
 
-  config.php      Config page (edit variables as needed)
-  index.php       Loader script (leave it as is)
-  pages/          Each wiki page is stored as a flat file
-  templates/      Stores html/css templates (you can use default as a 
-		  base and create your own templates)
-
+config.php	Config page (edit variables as needed)
+index.php	Loader script (leave it as is)
+pages/		Each wiki page is stored as a flat file
+templates/	Stores html/css templates (you can use default as a base and create your own templates)
 
 Instructions
 
